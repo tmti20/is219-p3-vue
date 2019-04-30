@@ -21,8 +21,8 @@
 */
 
 
-const vue_app = new Vue({
-      el: '#vue_app',
+const app = new Vue({
+      el: '#app_vue',
       // This automatically imports your movies.json file and puts it into
       //   the variable: movies
       created () {
@@ -31,6 +31,7 @@ const vue_app = new Vue({
             })
       },
       data: {
+            title: 'Movie title',
             // This holds your movies.json data.
             movies: []
 

@@ -16,17 +16,17 @@
 	<!-- DO NOT CHANGE ANYTHING ABOVE THIS LINE-->
 
 	<!-- Javascript Framework (e.g., vue.js) (ADD HERE) -->
-	
+	<script src="https://vuejs.org/js/vue.js"></script>
 	
 </head>
 
   <body>
-	<div class="container">
+	<div class="container" id="app_vue">
 
 	    <div class="header">
 		    
-	      <div class="container">
-	        <h1 id="app_title">%title%</h1>
+	      <div class="container" >
+	        <h1 id="app_title" >{{title}}</h1>
 	      </div>
 	      
 	    </div>
@@ -39,7 +39,7 @@
 	        <div class="col-md-6"> 
 	            <div class="thumbnail">
 
-						<img class="poster"  />
+<!--						<img class="poster" v-bind:src="movie.posters[movie.posterindex]" />-->
 						<div class="imageInfo">%posterindex%</div>
 						
 						<p class="title">%title% (%country%)</p> 
