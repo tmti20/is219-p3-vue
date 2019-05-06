@@ -68,5 +68,47 @@
             "likes": 812,
             "dislikes": 101,
             "posterindex": 0
+      },
+      {
+            "title": "WALL·E",
+            "iscore": 8.4,
+            "rating": "G",
+            "runtime": 85,
+            "released": [2008, 6, 27],
+            "country": "USA",
+            "posters": ["img/walle1.jpg","img/walle2.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0910970/",
+            "website": "https://movies.disney.com/wall-e",
+            "likes": 800,
+            "dislikes": 9,
+            "posterindex": 0
+      },
+      {
+            "title": "Up",
+            "iscore": 8.2,
+            "rating": "PG-13",
+            "runtime": 96,
+            "released": [2009, 5, 29],
+            "country": "USA",
+            "posters": ["img/up1.jpg"],
+            "imdb": "https://www.imdb.com/title/tt1049413",
+            "website": "https://movies.disney.com/up",
+            "likes": 828,
+            "dislikes": 60,
+            "posterindex": 0
+      },
+      {
+            "title": "Ratatouille",
+            "iscore": 8.0,
+            "rating": "R",
+            "runtime": 195,
+            "released": [2007, 6, 29],
+            "country": "USA",
+            "posters": ["img/Ratatouille1.jpg","img/Ratatouille1.jpg"],
+            "imdb": "https://www.imdb.com/title/tt0382932",
+            "website": "https://movies.disney.com/ratatouille",
+            "likes": 812,
+            "dislikes": 101,
+            "posterindex": 0
       }
 ]
