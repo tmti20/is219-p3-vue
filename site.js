@@ -31,11 +31,14 @@ const app = new Vue({
             })
       },
       data: {
-            title: 'Movie title',
+
             // This holds your movies.json data.
-            movies: []
+            movies: [],
 
             /* ADD ADDITIONAL VARIABLES FOR STEP 3 HERE */
+            title: "IMDB + Tanvirul's Top 8 Movies",
+            owner: "Tanvirul",
+            github: "https://github.com/tmti20/is219-p3-vue"
       },
       methods: {
             /* ADD FUNCTIONS/METHODS FOR STEP 7 HERE */
