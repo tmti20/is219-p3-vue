@@ -82,7 +82,11 @@ const app = new Vue({
                   this.movies[index].dislikes++;
             },
             posterClick: function (index) {
-
+                  if (this.movies[index].posterindex < (this.movies[index].posters.length - 1 )){
+                        this.movies[index].posterindex += 1;
+                  }else{
+                        this.movies[index].posterindex = 0;
+                  }
             },
             timeText: function (minutes) {
                   let hour = Math.floor(minutes/60);
