@@ -73,7 +73,7 @@ const app = new Vue({
                         month = 'December';
                   }
 
-                  return month + " "+ day + "," + year;
+                  return month + " "+ day + ", " + year;
             },
             like: function (index) {
                   this.movies[index].likes++;
