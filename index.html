@@ -45,7 +45,7 @@
 						<p class="title">{{movie.title}} ({{movie.country}})</p>
 						<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{movie.iscore}} </p>
 						<p class="runtime">Runtime: {{movie.runtime}}</p>
-						<p class="released">Released: {{movie.released}} | Rated: {{movie.rating}}</p>
+						<p class="released">Released: {{makeTextDate(movie.released)}} | Rated: {{movie.rating}}</p>
 						<p class="websites">Websites: <a v-bind:src="movie.imdb">IMDB</a> | <a v-bind:src="movie.website">Official</a></p>
 						
 			            <div class="social">
@@ -60,7 +60,7 @@
 
 	    <div class="footer">
 	      <div class="container">
-			<a id="github" v-bind:href="github" class="btn btn-lg btn-warning">
+			<a id="github" v-bind:href="github" target="_blank" class="btn btn-lg btn-warning">
 				<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i>{{owner}}
 	  		</a>
 	      </div>
