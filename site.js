@@ -85,7 +85,9 @@ const app = new Vue({
 
             },
             timeText: function (minutes) {
-
+                  let hour = Math.floor(minutes/60);
+                  let min = (minutes % 60);
+                  return hour + 'h ' + min + 'm';
             }
       }
 })

@@ -44,7 +44,7 @@
 
 						<p class="title">{{movie.title}} ({{movie.country}})</p>
 						<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{movie.iscore}} </p>
-						<p class="runtime">Runtime: {{movie.runtime}}</p>
+						<p class="runtime">Runtime: {{timeText(movie.runtime)}}</p>
 						<p class="released">Released: {{makeTextDate(movie.released)}} | Rated: {{movie.rating}}</p>
 						<p class="websites">Websites: <a v-bind:href="movie.imdb" target="_blank" >IMDB</a> | <a v-bind:href="movie.website" target="_blank" >Official</a></p>
 						
