@@ -46,11 +46,11 @@
 						<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{movie.iscore}} </p>
 						<p class="runtime">Runtime: {{movie.runtime}}</p>
 						<p class="released">Released: {{makeTextDate(movie.released)}} | Rated: {{movie.rating}}</p>
-						<p class="websites">Websites: <a v-bind:src="movie.imdb">IMDB</a> | <a v-bind:src="movie.website">Official</a></p>
+						<p class="websites">Websites: <a v-bind:src="movie.imdb" target="_blank" >IMDB</a> | <a v-bind:src="movie.website" target="_blank" >Official</a></p>
 						
 			            <div class="social">
-			              <p class="likes"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{movie.likes}}</p>
-			              <p class="dislikes"><i class="fa fa-thumbs-down" aria-hidden="true"></i> {{movie.dislikes}}</p>
+			              <p class="likes" @click="like(index)"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{movie.likes}}</p>
+			              <p class="dislikes" @click="dislike(index)"><i class="fa fa-thumbs-down" aria-hidden="true"></i> {{movie.dislikes}}</p>
 			            </div>
 	            </div> 
 	        </div>

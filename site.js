@@ -75,7 +75,18 @@ const app = new Vue({
 
                   return month + " "+ day + "," + year;
             },
+            like: function (index) {
+                  this.movies[index].likes++;
+            },
+            dislike: function (index) {
+                  this.movies[index].dislikes++;
+            },
+            posterClick: function (index) {
 
+            },
+            timeText: function (minutes) {
+
+            }
       }
 })
 	
